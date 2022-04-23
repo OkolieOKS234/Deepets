@@ -1,0 +1,186 @@
+body {
+  text-align: center;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* header and navbar  */
+/* Title section */
+
+/* end of title */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monserrat-Bold";
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* end of headings */
+/* navbar */
+.logo__first__text {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.btn {
+  border-radius: 20px;
+}
+li {
+  color: white;
+}
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 18px;
+}
+/* end of navbar */
+
+/* title bar */
+#title {
+  background-color: #3798b8;
+  color: white;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title images */
+.title-image {
+  width: 35%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.dog-walking {
+  width: 300px;
+  padding-top: 10px;
+}
+
+/* features section */
+#features {
+  /* padding: 5% 12% 5%; */
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-text {
+  font-weight: bolder;
+}
+
+.dalmatian {
+  padding-top: 50px;
+  width: 300px;
+  padding-bottom: 80px;
+  border-radius: 50%;
+}
+.dog_playing {
+  width: 300px;
+}
+.animal-shelter {
+  width: 300px;
+}
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #3798b8;
+  color: #fff;
+}
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #3798b8;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* pricing */
+.price {
+  color: #8f8f8f;
+}
+.row {
+  margin: 10px;
+}
+.pricing-text {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+}
+.enterprise {
+  color: grey;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+/* footer */
+#cta {
+  background-color: #3798b8;
+  padding: 60px;
+}
+.footer__buttons {
+  margin-top: 2px;
+  padding-bottom: 2px;
+  margin: 5% 3% 5% 0%;
+}
+.cta_text {
+  font-family: "Monserrat-Black";
+  font-weight: bolder;
+}
+/* Footer */
+#footer {
+  justify-content: center;
+}
+.social_accounts {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 300px;
+    transform: rotate(0);
+  }
+}
